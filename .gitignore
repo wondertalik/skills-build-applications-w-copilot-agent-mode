@@ -1,13 +1,16 @@
 .DS_Store
 
 # Virtual Environment
-venv
+venv/
+
+# Octofit tracker venv
+octofit-tracker/backend/venv/
 
 # octofit tracker app
 # octfit-tracker
 
 # React node_modules
-node_modules
+node_modules/
 /.pnp
 .pnp.js
 
@@ -31,3 +34,23 @@ yarn-error.log*
 # Python files
 *.pyc
 __pycache__/
+
+# Packaging
+dist/
+build/
+*.egg-info/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+coverage.xml
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Environment files
+.env
+
+# Misc
+*.log
